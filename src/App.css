@@ -18,16 +18,17 @@
   border-radius: 3rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.322);
 }
-
 * {
   margin: 0%;
   padding: 0%;
 }
+/* Sidebar */
 .sidebar {
   height: 100%;
   width: 20%;
   display: flex;
   justify-content: space-evenly;
+  position: absolute;
 }
 .sidebarList {
   padding: 3%;
@@ -66,4 +67,31 @@
 }
 .row #sidebarItemText {
   flex: 70%;
+}
+/* header */
+.navbar {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: snow;
+  box-shadow: 4px 4px 40px rgba(122, 122, 122, 0.199);
+  position: absolute;
+  padding: 0 2rem;
+  top: 3%;
+  left: 22%;
+  height: 10%;
+  width: 70%;
+  border-radius: 100px;
+}
+.navbarItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.6rem;
+}
+.navbarTitle{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
