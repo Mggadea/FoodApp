@@ -10,6 +10,7 @@ export const Sidebar = () => {
           return (
             <li
               key={key}
+              id={window.location.pathname == value.link ? "active" : "" }
               className="row"
               onClick={() => (window.location.pathname = value.link)}
             >

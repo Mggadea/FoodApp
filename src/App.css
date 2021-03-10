@@ -3,9 +3,22 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: #faf3e0;
+  background: linear-gradient(to right, #eecda3, #ef629f);
   padding: 4%;
 }
+.AppContainer {
+  width: 90vw;
+  height: 90vh;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(5rem);
+  border-radius: 3rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.322);
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -13,16 +26,22 @@
 .sidebar {
   height: 100%;
   width: 20%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .sidebarList {
   padding: 3%;
-
   height: auto;
   width: 100%;
   background-color: snow;
-  margin: 2%;
+  margin: 0%;
   border-radius: 40px;
 }
+.sidebarList #active {
+  background-color: #f5c0c0;
+  font-weight: 700;
+}
+
 .sidebarList .row {
   width: 80%;
   margin: 2.4rem 1rem;
@@ -37,16 +56,14 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
-.sidebarList .row:hover{
+.sidebarList .row:hover {
   cursor: pointer;
-  background-color: #1e212d;
-  color: snow;
 }
-.row #sidebarItemIcon{
+.row #sidebarItemIcon {
   flex: 30%;
   display: grid;
   place-items: center;
 }
-.row #sidebarItemText{
+.row #sidebarItemText {
   flex: 70%;
 }
