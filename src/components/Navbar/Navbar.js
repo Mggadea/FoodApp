@@ -2,7 +2,7 @@ import React from "react";
 import { NavbarData } from "./NavbarData";
 import Avatar from "@material-ui/core/Avatar";
 
-import "../../App.css";
+import "./Navbar.css";
 // toDo: en el componente Avatar hacer la función handleClick y vincularla al componente usando onClick={this.handleClick}
 export const Navbar = () => {
   return (
