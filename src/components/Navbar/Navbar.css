@@ -30,6 +30,10 @@
     overflow-y: hidden;
     background-color: snow;
     box-shadow: 4px 4px 20px rgba(122, 122, 122, 0.199);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: snow;
+    box-shadow: 4px 4px 40px rgba(122, 122, 122, 0.199);
     position: absolute;
     padding: 0 2rem;
     top: 3%;
@@ -123,6 +127,11 @@
     border-radius: 100px;
   }
   .navbarItem {
+
+    width: 70%;
+    border-radius: 100px;
+  }
+  .navbarItem{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,3 +250,10 @@
     font-weight: 700;
   }
 }
+
+  .navbarTitle{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
