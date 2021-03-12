@@ -56,6 +56,34 @@
     font-size: 1.6rem;
   }
 }
+@media (max-width: 1366px) {
+  .navbar {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: snow;
+    box-shadow: 4px 4px 20px rgba(122, 122, 122, 0.199);
+    position: absolute;
+    padding: 0 2rem;
+    top: 3%;
+    left: 23%;
+    height: 10vh;
+    width: 68%;
+    border-radius: 100px;
+  }
+  .navbarItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.4rem;
+  }
+  .navbarTitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+}
 @media (max-width: 1024px) {
   .navbar {
     overflow-x: hidden;
