@@ -299,37 +299,41 @@
   }
 }
 @media (max-width: 320px) {
+  .sidebarContainer {
+    display: flex;
+    justify-content: center;
+  }
   .sidebar {
     overflow: hidden;
     position: fixed;
     bottom: 0;
     z-index: 1000;
-    width: 100%;
-    height: 13vh;
+    width: 97%;
+    height: 16vh;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
   }
   .sidebarList {
-    padding: 2%;
+    padding: 5px;
     height: auto;
+    box-shadow: 6px 6px 40px rgba(122, 122, 122, 0.158);
     width: 100%;
-    background-color: snow;
-    border-radius: 1rem;
-    box-shadow: -6px -6px 20px rgba(122, 122, 122, 0.158);
-    align-content: center;
+    background-color: #FFF;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: space-between;
   }
   .sidebarList #active {
-    background-color: #f5c0c0;
+    background-color: #f88ebc;
   }
   .sidebarList .row {
-    width: 16%;
-    margin: 0.4rem 0.34rem;
+    display: flex;
+    width: 10%;
+    margin: 1px;
     height: 3rem;
-    border-radius: 50px;
+    border-radius: 100%;
     list-style-type: none;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
   }
   .row #sidebarItemText {
     display: none;

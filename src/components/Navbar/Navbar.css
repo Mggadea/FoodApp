@@ -155,11 +155,10 @@
     border-radius: 100px;
   }
   .navbarItem {
-
     width: 70%;
     border-radius: 100px;
   }
-  .navbarItem{
+  .navbarItem {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,36 +251,27 @@
   }
 }
 @media (max-width: 320px) {
+  .navbarContainer {
+    display: flex;
+    justify-content: center;
+  }
   .navbar {
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: absolute;
-    background-color: transparent;
-    box-shadow: 0 0 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
+    position: relative;
+    padding: 5px 0;
+    width: 90%;
+    margin: 10px 6px;
+    display: flex;
+    justify-content: center;
   }
   .navbarItem {
+    width: 100%;
+    margin: 0 12px ;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 0.3rem;
-    padding: 5% 10%;
   }
   .navbarTitle {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
   }
 }
-
-  .navbarTitle{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 1.3rem;
-  }
-

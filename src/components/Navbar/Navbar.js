@@ -6,12 +6,12 @@ import "../../App.css";
 // toDo: en el componente Avatar hacer la función handleClick y vincularla al componente usando onClick={this.handleClick}
 export const Navbar = () => {
   return (
-    <div className="navbar">
-      <div>
+    <div className="navbarContainer">
+      <div className="navbar">
         {NavbarData.map((value, key) => {
           return (
             <div className="navbarItem" key={key}>
-              <div  className="navbarTitle">
+              <div className="navbarTitle">
                 {value.icon} {value.title}
               </div>
               <Avatar>H</Avatar>
